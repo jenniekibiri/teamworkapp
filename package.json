@@ -2,6 +2,10 @@
   "name": "teamworkapp",
   "version": "1.0.0",
   "main": "index.js",
+  "engines": {
+    "node": "12.7.0",
+    "npm": "6.10.0"
+  },
   "scripts": {
     "test-init": "node node_modules/jasmine/bin/jasmine.js init",
     "test": "node node_modules/jasmine/bin/jasmine.js",
