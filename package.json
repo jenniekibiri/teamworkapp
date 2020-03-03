@@ -5,23 +5,27 @@
   "scripts": {
     "test-init": "node node_modules/jasmine/bin/jasmine.js init",
     "test": "node node_modules/jasmine/bin/jasmine.js",
+    "coveralls": "jest  --coverage --coverageReporters=text-lcov --forceExit | coveralls",
     "start": " node index.js"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "coverage": "^0.4.1",
     "express": "^4.17.1",
     "jasmine": "^3.5.0",
     "jasmine-node": "^3.0.0",
     "request": "^2.88.2"
   },
   "devDependencies": {
+    "coveralls": "^3.0.9",
     "eslint": "^6.8.0",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-plugin-import": "^2.20.1",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.18.3",
-    "eslint-plugin-react-hooks": "^1.7.0"
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "jest": "^25.1.0"
   }
 }

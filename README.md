@@ -1,1 +1,1 @@
-[![Build Status](https://travis-ci.org/jenniekibiri/teamworkapp.svg?branch=master)](https://travis-ci.org/jenniekibiri/teamworkapp)
+ [![Build Status](https://travis-ci.org/jenniekibiri/teamworkapp.svg?branch=master)](https://travis-ci.org/jenniekibiri/teamworkapp)   [![Coverage Status](https://coveralls.io/repos/github/jenniekibiri/teamworkapp/badge.svg?branch=master)](https://coveralls.io/github/jenniekibiri/teamworkapp?branch=master)
