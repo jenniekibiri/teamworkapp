@@ -17,6 +17,7 @@
   "description": "",
   "dependencies": {
     "coverage": "^0.4.1",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "jasmine": "^3.5.0",
     "jasmine-node": "^3.0.0",
