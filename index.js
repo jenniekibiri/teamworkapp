@@ -2,13 +2,7 @@
 const express = require('express');
 
 const {Client} = require('pg');
-
-
-
-
 const app = express();
-
-
 const connectionString ='postgres://postgres:5463@localhost:5432/teamwork';
 const client = new Client({
     connectionString:connectionString
@@ -18,8 +12,6 @@ client.connect();
 app.get('/', (req, res) => {
   res.status(200).send('hello server');
 });
-
-
 
 app.get('/feed', (req,res) => {
   client.query('SELECT * FROM articles, gifs', (err, result) => 
