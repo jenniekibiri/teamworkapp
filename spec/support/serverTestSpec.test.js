@@ -9,7 +9,6 @@ afterAll(() =>{
     server.close();
 });
 describe('GET /', () =>{
-
     var data = {};
 beforeAll((done) =>{
 Request.get('http://localhost:5000/', (error, response, body) =>{
